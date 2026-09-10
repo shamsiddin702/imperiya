@@ -1,0 +1,6 @@
+{
+  "name": "Emperiya Sartaroshxona - Erkinov Asadbek",
+  "description": "Erkinov Asadbekning 'Emperiya' sartaroshxonasi. Onlayn navbatga yozilish, xizmatlar, narxlar va Telegram orqali xabarnoma.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

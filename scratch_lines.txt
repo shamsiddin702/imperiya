@@ -1,0 +1,22 @@
+﻿1779: "  if (text === 'ЁЯХТ BoтАШsh Vaqtlar' || text === '/free' || text === '/bosh') {"
+1780: "    const todayStr = new Date().toISOString().split('T')[0];"
+1781: '    const occupiedTimes = localStore.bookings'
+1782: "      .filter((b) => (b.date === todayStr || (b.dayName && b.dayName.toLowerCase().includes('bugun')"
+1783: '      .map((b) => b.time);'
+1784: ''
+1785: '    const allSlots = BOT_TIME_SLOTS;'
+1786: '    '
+1787: '    let slotText = `ЁЯХТ <b>BUGUNGI VAQTLAR HOLATI (YARIM SOATLIK INTERVALLAR):</b>\\nтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБтФБ'
+1788: '    allSlots.forEach((slot) => {'
+1789: '      if (occupiedTimes.includes(slot)) {'
+1790: '        slotText += `ЁЯФ┤ <b>${slot}</b> тАФ Band\\n`;'
+1791: '      } else {'
+1792: '        slotText += `ЁЯЯв <b>${slot}</b> тАФ <b>BoтАШsh (Ochiq)</b>\\n`;'
+1793: '      }'
+1794: '    });'
+1795: ''
+1796: '    slotText += `\\n<i>Eslatma: Sartarosh navbatni "Tugatdim" deb belgilasa, oтАШsha soatdagi joy avtom'
+1797: ''
+1798: '    await sendTelegramMessage(chatId, slotText, {'
+1799: '      inline_keyboard: ['
+1800: "        [{ text: 'тЬВя╕П Navbatga Yozilish', callback_data: 'book_step:service' }],"

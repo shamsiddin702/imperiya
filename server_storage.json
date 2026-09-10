@@ -1,0 +1,42 @@
+{
+  "bookings": [
+    {
+      "id": "EMP-9754",
+      "clientName": "__KHOLYAROV__",
+      "clientPhone": "+998901234567",
+      "clientTelegram": "@temurbek_xaliyarov",
+      "clientChatId": 7737656048,
+      "serviceId": "haircut",
+      "serviceName": "Soch olish",
+      "servicePrice": 25000,
+      "date": "2026-09-10",
+      "dayName": "Bugun",
+      "time": "16:35",
+      "notes": "",
+      "status": "confirmed",
+      "createdAt": "2026-09-10T11:21:31.842Z",
+      "remindersSent": [
+        "10"
+      ],
+      "telegramSent": true
+    }
+  ],
+  "subscribers": [
+    {
+      "chat_id": 7737656048,
+      "username": "temurbek_xaliyarov",
+      "first_name": "__KHOLYAROV__",
+      "phone": "+998901234567",
+      "role": "admin",
+      "created_at": "2026-09-08T10:00:00.000Z"
+    },
+    {
+      "chat_id": 6222544109,
+      "username": "mawlonow",
+      "first_name": "Fahriddin",
+      "phone": "",
+      "role": "client",
+      "created_at": "2026-09-10T11:00:25.301Z"
+    }
+  ]
+}
